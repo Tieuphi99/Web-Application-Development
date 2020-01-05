@@ -1,0 +1,49 @@
+<html>
+
+<head>
+    <script src="labwork_b.js"></script>
+    <link rel="stylesheet" href="labwork_b_style.css">
+</head>
+
+<body id="sign_up">
+    <p>
+        <h1>
+            Sign Up
+        </h1>
+    </p>
+    <form action="">
+
+        <table id="form">
+            <tr>
+                <td>Username:</td>
+                <th><input type="text" name="email"></td>
+            </tr>
+            <tr>
+                <td>Password:</td>
+                <th><input type="password" name="password" id="password"></th>
+            </tr>
+            <tr>
+                <td>Re-type Password:</td>
+                <th><input type="password" name="repassword" id="repassword"></th>
+            </tr>
+            <tr>
+                <td></td>
+                <th><input type="reset" name="reset" value="Reset" />
+                    <input type="button" name="submit" value="Submit" onclick="check()" /></th>
+            </tr>
+        </table>
+
+    </form>
+    <p>
+        <h1>Multiply and Divide two numbers</h1>
+    </p>
+    <form action="">
+        1st number: <input type="text" name="1stnbr" id="1stnbr" /> <br />
+        2nd number: <input type="text" name="2ndnbr" id="2ndnbr" /> <br />
+        <input type="button" name="multiply" value="Multiply" onclick="multi()" />
+        <input type="button" name="divide" value="Divide" onclick="divi()" />
+    </form>
+    <p id="result">The Result is:</p>
+</body>
+
+</html>

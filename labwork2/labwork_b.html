@@ -1,0 +1,104 @@
+<html>
+
+<head>
+    <script src="labwork_b.js"></script>
+    <link rel="stylesheet" href="labwork_b_style.css">
+</head>
+
+<body>
+    <div id="sign_up">
+        <p>
+            <h1>
+                Sign Up
+            </h1>
+        </p id="sign_up">
+        <form action="">
+
+            <table id="form">
+                <tr>
+                    <td>Username:</td>
+                    <th><input type="text" name="email"></td>
+                </tr>
+                <tr>
+                    <td>Password:</td>
+                    <th><input type="password" name="password" id="password"></th>
+                </tr>
+                <tr>
+                    <td>Re-type Password:</td>
+                    <th><input type="password" name="repassword" id="repassword"></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <th><input type="reset" name="reset" value="Reset" />
+                        <input type="button" name="submit" value="Submit" onclick="check()" /></th>
+                </tr>
+            </table>
+        </form>
+    </div id="sign_up">
+    <div>
+        <p>
+            <h1>Multiply and Divide two numbers</h1>
+        </p>
+        <form action="">
+            1st number: <input type="text" name="1stnbr" id="1stnbr" /> <br />
+            2nd number: <input type="text" name="2ndnbr" id="2ndnbr" /> <br />
+            <input type="button" name="multiply" value="Multiply" onclick="multi()" />
+            <input type="button" name="divide" value="Divide" onclick="divi()" />
+        </form>
+        <p id="result">The Result is:</p>
+    </div>
+    <div>
+        <h1>
+            Survey
+        </h1>
+        <p>
+
+            Name: <br />
+            <input type="text" name="name" id="name" /> <br />
+            Date of birth: <br />
+            <input type="text" name="dob" id="dob" /> <br />
+            Email: <br />
+            <input type="text" name="email" id="email" /> <br />
+        </p>
+        <p>
+            Specialty: <br />
+            <input type="radio" name="spec" value="space" /> Space and Aeronautics <br />
+            <input type="radio" name="spec" value="pmab" /> Pharmacological, Medical and Agronomical Biotechnology
+            <br />
+            <input type="radio" name="spec" value="weo" /> Water-Environment-Oceanography <br />
+            <input type="radio" name="spec" value="energy" /> Energy <br />
+            <input type="radio" name="spec" value="nano" /> Advanced Material Science and Nanotechnology <br />
+            <input type="radio" name="spec" value="ict" /> Information and Communication Technologies <br />
+            <input type="radio" name="spec" value="food" /> Food Science and Technology <br />
+            <input type="radio" name="spec" value="mst" /> Medical Science and Technology <br />
+
+        </p>
+        <p>
+            Do you want to pursue a post-graduate degree? <br />
+            <input type="radio" name="question" value="post-graduate" /> Yes
+            <input type="radio" name="question" value="post-graduate" /> No
+        </p>
+        <p>
+            Where do you want to work after graduation? <br />
+            <input type="checkbox" name="work" value="education"> Education <br />
+            <input type="checkbox" name="work" value="government"> Government <br />
+            <input type="checkbox" name="work" value="financial"> Financial and banking <br />
+            <input type="checkbox" name="work" value="research"> Research <br />
+            <input type="checkbox" name="work" value="construction"> Construction <br />
+        </p>
+        <p>
+            Opinion about the study environment at USTH (1: very bad, 5: very good) <br />
+            <input type="radio" name="rating" value="very_bad"> 1
+            <input type="radio" name="rating" value="bad"> 2
+            <input type="radio" name="rating" value="whatever"> 3
+            <input type="radio" name="rating" value="good"> 4
+            <input type="radio" name="rating" value="very_good"> 5
+        </p>
+        <p>
+            Ideas to improve study environment at USTH: <br />
+            <textarea name="comment" rows="10" cols="100"></textarea>
+        </p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+<html>
+<head>
+    <script src="labwork_a.js"></script>
+</head>
+<body>
+    <p>
+        Today is:
+        <script>
+            document.write(daylist[day])
+        </script>
+    </p>
+    <p>
+        Current time is:
+        <script>
+            document.write(hour + prepand + " : " + minute + " : " + second)
+        </script>
+    </p>
+    <p>
+        <button id="btn_temp" onclick="ctof()">Convert Celsius to Fahrenheit</button>
+        <button id="btn_temp" onclick="ftoc()">Convert Fahrenheit to Celsius</button>
+    </p>
+    <p>
+        <button id="btn_rand" onclick="random()">Generate random number from 1 to 10</button>
+    </p>
+</body>
+</html>
